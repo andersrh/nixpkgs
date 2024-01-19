@@ -40,7 +40,7 @@
 
 buildPythonPackage rec {
   pname = "SQLAlchemy";
-  version = "2.0.21";
+  version = "2.0.24";
   format = "pyproject";
 
   disabled = pythonOlder "3.7";
